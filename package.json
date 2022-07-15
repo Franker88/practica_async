@@ -4,11 +4,13 @@
   "description": "Aprendiendo de asincronismo ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node comenzando/index.js"
   },
   "author": "Franker88",
   "license": "ISC",
   "dependencies": {
+    "node-fetch": "^3.2.8",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
